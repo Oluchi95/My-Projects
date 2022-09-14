@@ -185,6 +185,6 @@ header .nav li a:hover{
     background-position: top;
     position: absolute;
     left: 50%;
-    top: 280%;
-    transform: translate(-50%, -280%);
+    top: 225%;
+    transform: translate(-50%, -225%);
 }
