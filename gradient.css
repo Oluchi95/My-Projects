@@ -1,0 +1,190 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.one{
+    background: linear-gradient(to bottom right, rgb(23,64,63), rgb(24, 109, 109), rgb(21, 80, 80), rgb(31,72,71), rgb(38,90,90), rgb(23,64,63));
+    width: 100%;
+    height: 800px;
+    color:#fff;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+header .logo h1{
+    font-size: 30px;
+    margin: 0;
+}
+header .logo .fa-solid{
+    font-size: 30px;
+}
+
+header .nav li{
+    list-style: none;
+    display: inline;
+    margin-left: 40px;
+}
+
+header .nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+header .nav li a:hover{
+    color: red;
+}
+
+.nav button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 20px;
+}
+
+.alpha{
+    margin-top: 150px;
+    text-align: center;
+}
+
+.alpha h1{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.alpha p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.three li {
+    list-style: none;
+    display: inline;
+    margin-left: 30px;
+}
+
+.three li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.three button{
+    border:none;
+    border-radius: 20px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    transition-property: width, background-color;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+.three button:hover{
+    width: 120px;
+    background-color: rgb(240, 75, 75);
+    cursor: pointer;
+}
+
+.three .but{
+    color: #000;
+    font-weight: 800;
+}
+
+.four{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 660px;
+    padding-top: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.numbers h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.numbers p{
+    margin-top: 0;
+}
+
+.four p{
+    color: gray;
+}
+
+.nine a{
+    color: rgb(255, 166, 0);
+    font-weight: 900;
+    text-decoration: none;
+} 
+
+.digits{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.last{
+    width:100%;
+    height: auto;
+    background-color: rgb(248, 242, 242);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.none{
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+    padding: 50px;
+    margin: 20px;
+}
+
+.none h1{
+    font-size: 20px;
+    margin-bottom: 20;
+}
+
+.none p{
+    margin-top: 20;
+    color: grey;
+    font-size: 15px;
+}
+
+ .last .fa-solid{
+    color: orange;
+}
+
+.container{
+    width: 80%;
+    height: 310px;
+    background-image: url(Images/dorrised.png);
+    background-size: cover;
+    background-position: top;
+    position: absolute;
+    left: 50%;
+    top: 280%;
+    transform: translate(-50%, -280%);
+}
