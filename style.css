@@ -186,5 +186,6 @@ header .nav li a:hover{
     background-position: top;
     position: absolute;
     left: 10%;
-    bottom: -400px;
+    right: 10%;
+    bottom: -60%;
 }
