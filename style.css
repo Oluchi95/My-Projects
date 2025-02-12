@@ -1,48 +1,50 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-body {
+body{
     padding: 0;
     margin: 0;
     font-family: 'Space Grotesk', sans-serif;
 }
 
-/* Make header responsive */
-header {
+.one{
+    background: linear-gradient(to bottom right, rgb(23,64,63), rgb(24, 109, 109), rgb(21, 80, 80), rgb(31,72,71), rgb(38,90,90), rgb(23,64,63));
+    width: 100%;
+    height: 800px;
+    color:#fff;
+}
+
+header{
     display: flex;
     justify-content: space-between;
     padding: 50px 100px;
-    flex-wrap: wrap;
 }
 
-header .logo h1 {
+header .logo h1{
     font-size: 30px;
     margin: 0;
 }
-
-header .nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+header .logo .fa-solid{
+    font-size: 30px;
 }
 
-header .nav li {
+header .nav li{
     list-style: none;
+    display: inline;
     margin-left: 40px;
-    display: inline-block;
 }
 
-header .nav li a {
+header .nav li a{
     color: #fff;
     text-decoration: none;
 }
 
-header .nav li a:hover {
+header .nav li a:hover{
     color: red;
 }
 
-header .nav button {
+.nav button{
     width: 150px;
     height: 50px;
     border: 1px solid white;
@@ -50,34 +52,33 @@ header .nav button {
     border-radius: 20px;
 }
 
-.alpha {
+.alpha{
     margin-top: 150px;
     text-align: center;
 }
 
-.alpha h1 {
+.alpha h1{
     font-size: 60px;
     margin-bottom: 30px;
 }
 
-.alpha p {
+.alpha p{
     font-size: 20px;
     margin-bottom: 30px;
 }
-
 .three li {
     list-style: none;
     display: inline;
     margin-left: 30px;
 }
 
-.three li a {
+.three li a{
     color: #fff;
     text-decoration: none;
 }
 
-.three button {
-    border: none;
+.three button{
+    border:none;
     border-radius: 20px;
     height: 50px;
     width: 150px;
@@ -87,20 +88,20 @@ header .nav button {
     transition-timing-function: linear;
 }
 
-.three button:hover {
+.three button:hover{
     width: 120px;
     background-color: rgb(240, 75, 75);
     cursor: pointer;
 }
 
-.three .but {
+.three .but{
     color: #000;
     font-weight: 800;
 }
 
-.container {
+.container{
     width: 80%;
-    height: 310px;
+    height:310px;
     background-image: url(Images/dorrised.png);
     background-size: cover;
     background-position: top;
@@ -108,7 +109,7 @@ header .nav button {
     display: inline-flex;
 }
 
-.four {
+.four{
     background-color: whitesmoke;
     width: 100%;
     height: 550px;
@@ -116,7 +117,7 @@ header .nav button {
     margin-bottom: 0;
 }
 
-.numbers {
+.numbers{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -124,33 +125,33 @@ header .nav button {
     margin-bottom: 100px;
 }
 
-.numbers h1 {
+.numbers h1{
     text-align: center;
     margin-bottom: 0;
 }
 
-.numbers p {
+.numbers p{
     margin-top: 0;
 }
 
-.four p {
+.four p{
     color: gray;
 }
 
-.nine a {
+.nine a{
     color: rgb(255, 166, 0);
     font-weight: 900;
     text-decoration: none;
-}
+} 
 
-.digits {
+.digits{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.last {
-    width: 100%;
+.last{
+    width:100%;
     height: auto;
     background-color: rgb(248, 242, 242);
     display: flex;
@@ -160,7 +161,7 @@ header .nav button {
     padding: 50px;
 }
 
-.none {
+.none{
     border: 5px solid white;
     border-radius: 10px;
     background-color: #fff;
@@ -170,80 +171,17 @@ header .nav button {
     margin: 20px;
 }
 
-.none h1 {
+.none h1{
     font-size: 20px;
     margin-bottom: 20px;
 }
 
-.none p {
-    margin-top: 20px;
+.none p{
+    margin-top: 20;
     color: grey;
     font-size: 15px;
 }
 
-.last .fa-solid {
+ .last .fa-solid{
     color: orange;
-}
-
-/* Media Queries for responsiveness */
-@media only screen and (max-width: 768px) {
-    header {
-        flex-direction: column;
-        padding: 20px;
-    }
-
-    header .logo h1 {
-        font-size: 24px;
-    }
-
-    header .nav li {
-        margin-left: 20px;
-        display: block;
-    }
-
-    .alpha h1 {
-        font-size: 40px;
-    }
-
-    .alpha p {
-        font-size: 16px;
-    }
-
-    .container {
-        width: 100%;
-        height: auto;
-    }
-
-    .numbers {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .four {
-        padding: 30px;
-        height: auto;
-    }
-
-    .none {
-        width: 100%;
-        margin: 20px 0;
-    }
-
-    .digits {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .last {
-        padding: 20px;
-        text-align: center;
-    }
-
-    .none h1 {
-        font-size: 18px;
-    }
-
-    .none p {
-        font-size: 14px;
-    }
 }
